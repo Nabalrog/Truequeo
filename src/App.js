@@ -3,10 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import AppNav from './components/AppNav/AppNav';
 import 'bootstrap/dist/css/bootstrap.css';
+import Header from './components/Header/Header';
 
 function App() {
-  return (
-<AppNav/>
+  return (<div>
+    <AppNav />
+    <Header />
+
+  </div>
+
+
   );
 }
 
