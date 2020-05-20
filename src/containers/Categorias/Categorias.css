@@ -1,0 +1,89 @@
+
+.seccionperfil{
+
+    border: solid px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+   
+
+
+}
+
+.textoabout{
+
+    font-size: x-large;
+    text-align: justify;
+
+}
+.fotoperfil{
+
+    width: 50%;
+    display: block;
+    border-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.nombreperfiltxt{
+   text-align: center;
+}
+
+.miscursos{
+    font-size: x-large;
+    text-align: center;
+}
+
+.fila1{
+
+    width: 100%;
+    padding: 1cm;
+    justify-content: center;
+    
+
+}
+
+.fila2{
+    width: 100%;
+    padding: 1cm;
+    justify-content: center;
+}
+
+
+
+
+.seccioncursos{
+    border: solid 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0cm;
+   
+    
+
+}
+
+.seccioncursos2{
+
+    border: solid px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2cm;
+   
+
+
+}
+
+.botonesc{
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background-color: green;
+box-shadow: 1px 5px 5px #666;
+}
+
+
+
+/* traido de style.css */

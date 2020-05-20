@@ -1,0 +1,102 @@
+
+.titulocurso{
+    border: solid px;
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+    margin-top: 2cm;
+    margin-left: 5cm;
+    margin-bottom: 0cm;
+    max-width:75%;
+
+
+
+}
+
+.videos{
+    border: solid px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0cm;
+    margin-left: 5cm;
+    margin-bottom: 2cm;
+    max-width:75%;
+    
+    
+    
+    
+    padding-top: 2cm;
+   
+    
+
+
+}
+
+.textos1{
+    justify-content:space-between;
+
+    border: solid px;
+    display: flex;
+
+    margin-top: 2cm;
+    margin-left: 5cm;
+    margin-bottom: 5cm;
+    max-width:75%;
+
+    
+}
+
+
+
+.textoestrellas{
+    border: solid px;
+    display: flex;
+    justify-content: right;
+    
+
+
+}
+.checked {
+    color: orange;
+  }
+.imagenstar{
+
+    max-width: 20%;
+    display: flex;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    
+    
+    
+    justify-content: left;
+
+    
+    
+}
+
+.textos2{
+    justify-content: space-between;
+
+    border: solid px;
+    display: flex;
+
+    margin-top: 2cm;
+    margin-left: 5cm;
+    margin-bottom: 0cm;
+    max-width:75%;
+}
+
+
+.comentarios1{
+    justify-content: space-evenly;
+
+    border: solid px;
+    display: flex;
+
+    margin-top: 0cm;
+    margin-left: 5cm;
+    margin-bottom: 0cm;
+    max-width:75%;
+
+
+}
