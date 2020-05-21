@@ -42,6 +42,10 @@ const MiPerfil = () => {
         setcard4(true)
 
     }
+
+    
+
+
     return (
         <div>
 

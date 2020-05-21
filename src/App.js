@@ -11,6 +11,8 @@ import NotFound from "./containers/NotFound/NotFound"
 import PerfilVisitado from "./containers/PerfilVisitado/PerfilVisitado";
 import Curso from "./containers/Curso/Curso";
 import CrearUsuario from "./containers/CrearUsuario/CrearUsuario";
+import Usuario from './components/Usuario/Usuario'
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route exact path="/PerfilVisitado" component={PerfilVisitado}/>
         <Route exact path="/Curso" component={Curso}/>
         <Route exact path="/CrearUsuario" component={CrearUsuario}/>
+        <Route exact path="/Usuario" component={Usuario}/>
 
         {/* Siempre es el último */}
         <Route component={NotFound} />

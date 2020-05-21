@@ -12,7 +12,7 @@ const Tarjeta4 = () => {
                     <img className="card-img-top" src={diseñoweb1} alt="" />
                     <div className="card-body">
                         <h5 className="card-title">TARJETA4</h5>
-                        <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
+                        <p className="card-text">ESTE ES UN EJEMPLO DE LA CUARTA TARJETA</p>
                         <a href="./curso.html" className="btn btn-success botonesc">Ir al curso</a>
                     </div>
                 </div>

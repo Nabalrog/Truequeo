@@ -9,10 +9,10 @@ const Tarjeta3 = () => {
         <div>
             <div className="col-md" >
                 <div className="card" >
-                    <img className="card-img-top" src={diseñoweb1} alt="" />
+                    
                     <div className="card-body">
                         <h5 className="card-title">TARJETA3</h5>
-                        <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
+                        <p className="card-text">ESTE ES UN EJEMPLO DE LA TERCERA TARJETA</p>
                         <a href="./curso.html" className="btn btn-success botonesc">Ir al curso</a>
                     </div>
                 </div>

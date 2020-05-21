@@ -2,6 +2,8 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AppNav.css'
 
+import { NavLink } from 'react-router-dom';
+
 
 const AppNav = () => {
     return (
@@ -15,13 +17,13 @@ const AppNav = () => {
 
 
             <div id="navegacion" className="secciones">
-                <a href="index.html">HOME</a>
-                <a href="./miperfil.html">MI PERFIL</a>
-                <a href="./categorias.html">CATEGORIAS</a>
+                <NavLink to="/MainContainer">HOME</NavLink>
+                <NavLink to="/MiPerfil">MI PERFIL</NavLink>
+                <NavLink to="/Categorias">CATEGORIAS</NavLink>
             </div>
 
             <div id="navegacion" className="lupa">
-                <a href="./categorias.html"><img src="./assets/lupa.png" alt="" /></a>
+            
             </div>
 
 
@@ -30,7 +32,10 @@ const AppNav = () => {
             </div>
 
             <div id="navegacion" className="iniciosesion">
-                <a href="login.html">Iniciar sesion</a>
+            <NavLink to="/login">Iniciar sesion</NavLink>
+            </div>
+            <div id="navegacion" className="iniciosesion">
+            <NavLink to="/CrearUsuario">Crear Usuario</NavLink>
             </div>
 
 
