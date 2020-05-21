@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AppNav.css'
+import logo from "../../assets/TRUEQUEOIMG.png"
 
 import { NavLink } from 'react-router-dom';
 
@@ -12,7 +13,8 @@ const AppNav = () => {
         <nav class="navegacion">
 
             <div class="logo">
-                <img src="./assets/logo-truequeo.png" alt="" />
+                <img src={logo} alt="" />
+                
             </div>
 
 
