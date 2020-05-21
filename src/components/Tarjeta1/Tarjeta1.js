@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import './Tarjeta1.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Usuario from '../Usuario/Usuario';
 
 
 
+const Tarjeta1 = ({ Nombre, Password, Correo, Telefono} ) => {
 
-const Tarjeta1 = ({ Nombre, Password, Correo, Telefono }) => {
 
-
+   
 
     return (
         <div>
@@ -20,10 +21,10 @@ const Tarjeta1 = ({ Nombre, Password, Correo, Telefono }) => {
                         <h5 className="card-title">Mi usuario</h5>
 
 
-                        <p>nombre={Nombre}</p>
-                        <p>password={Password}</p>
-                        <p>telefono={Telefono}</p>
-                        <p>correo={Correo}</p>
+                        <p>Nombre: {Nombre}</p>
+                        <p>Password: {Password}</p>
+                        <p>Telefono: {Telefono}</p>
+                        <p>Correo: {Correo}</p>
 
 
 

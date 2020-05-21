@@ -5,6 +5,7 @@ import Tarjeta3 from "../../components/Tarjeta3/Tarjeta3"
 import Tarjeta4 from "../../components/Tarjeta4/Tarjeta4"
 import "./MiPerfil.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavLink } from 'react-router-dom';
 
 const MiPerfil = () => {
 
@@ -68,7 +69,7 @@ const MiPerfil = () => {
                         </div>
                         <div className="row my-5 mx-5">
                             <div className="col">
-                                <a href="./Categorias.html" className="botonP">Explorar</a>
+                                <NavLink to="./Categorias" className="botonP">Explorar</NavLink>
                             </div>
                         </div>
 

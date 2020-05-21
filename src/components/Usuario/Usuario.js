@@ -5,7 +5,7 @@ import Tarjeta1 from '../Tarjeta1/Tarjeta1';
 
 const Usuario = () => {
 
-    const [usuario, setUsuario] = useState({})
+    const [user, setUser] = useState('')
 
 
     const id = '-M7oZWTQ4ZgT5D4v1hrA'
@@ -14,7 +14,7 @@ const Usuario = () => {
     const getUsuario = () => {
         
         axios.get(`https://truequeoweb.firebaseio.com/usuarios.json`)
-            .then(( {data} ) => setUsuario(data[id]));
+            .then(( {data} ) => setUser(data[id]));
 
 
         
@@ -24,21 +24,21 @@ const Usuario = () => {
         getUsuario();
     },[])
 
-console.log(usuario)
+
 
 
     return (
         <div className="card">
             <div className="Card-body">
-                <h5 className="card-title">MI USUARIO</h5>
+                
 
-                {Object.keys(usuario).map((id) =>
+                {Object.keys(user).map((id) =>
                     <Tarjeta1
                         key={id}
-                        Nombre={usuario.nombre}
-                        Telefono={usuario.telefono}
-                        Password={usuario.password}
-                        Correo={usuario.correo}
+                        Nombre={user.nombre}
+                        Telefono={user.telefono}
+                        Password={user.password}
+                        Correo={user.correo}
                         getUsuario={getUsuario}
 
                     />)}
