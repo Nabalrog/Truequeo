@@ -2,7 +2,7 @@
 
 
 header{
-    border: solid px black;
+    
     height: 812px;
     background-image: url(../../assets/2.jpg);
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ header{
 }
 
 .recuadroinformacion{
-    border: solid 3px black;
+    
     width: 600px;
     height: 450px;
 
@@ -27,7 +27,7 @@ header{
 
 .recuadroinformacion img{
     width: 200px;
-    border: solid px black;
+    
     margin-left: 200px;
     
 
@@ -35,7 +35,7 @@ header{
 
 .recuadroinformacion p{
     text-align: center;
-    border: solid px black;
+    
     height: 230px;
     opacity: 100%;
     color: black;
@@ -137,7 +137,7 @@ header{
 }
 
 .seleccioncategoria{
-        border: solid 3px black;
+        
         width: 200px;
         margin-left: 65px;
 }
@@ -182,7 +182,7 @@ header{
 /* INICIO SECTION CURSOS */
 
 .cursoscategoriasimg{
-    border: solid px black;
+    
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -345,23 +345,23 @@ header{
 
 
 .linea1{
-    border:solid 1px;
+    
     width: 200px;
     
 }
 .linea2{
-    border:solid 1px;
+    
     width: 200px;
     
 }
 .linea3{
-    border:solid 1px;
+    
     width: 200px;
     
 }
 
 .testimoniotxt1{
-    border: solid px;
+    
     width: 400px;
 }
 
@@ -371,7 +371,7 @@ header{
 }
 
 .testimoniotxt2{
-    border: solid px;
+    
     width: 400px;
 }
 
@@ -392,7 +392,7 @@ header{
 
 
 .testimonio1{
-    border: solid px black;
+    
     width: 30%;
     height: 300px;
     display: flex;
@@ -400,7 +400,7 @@ header{
     align-items: center;
 }
 .testimonio2{
-    border: solid px black;
+    
     width: 30%;
     height: 300px;
     display: flex;
@@ -408,7 +408,7 @@ header{
     align-items: center;
 }
 .testimonio3{
-    border: solid px black;
+    
     width: 30%;
     height: 300px;
     display: flex;

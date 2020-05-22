@@ -1,7 +1,7 @@
 
 .seccionperfil{
 
-    border: solid px;
+   
     display: flex;
     flex-wrap: wrap;
     padding-top: 2cm;
@@ -54,7 +54,7 @@
 
 
 .seccioncursos{
-    border: solid 0px;
+   
     display: flex;
     justify-content: space-evenly;
     padding-top: 0cm;
@@ -65,7 +65,7 @@
 
 .seccioncursos2{
 
-    border: solid px;
+    
     display: flex;
     flex-wrap: wrap;
     padding-top: 2cm;

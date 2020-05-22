@@ -2,7 +2,7 @@
 @import url("https://use.typekit.net/hgg7pqh.css");
 
 header{
-    border: solid px black;
+  
     height: 812px;
     /* background-image: url(./assets/2.jpg); */
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ header{
 }
 
 .recuadroinformacion{
-    border: solid 3px black;
+   
     width: 600px;
     height: 450px;
 
@@ -27,7 +27,7 @@ header{
 
 .recuadroinformacion img{
     width: 200px;
-    border: solid px black;
+  
     margin-left: 200px;
     
 
@@ -35,7 +35,7 @@ header{
 
 .recuadroinformacion p{
     text-align: center;
-    border: solid px black;
+    
     height: 230px;
     opacity: 100%;
     color: black;
