@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from './assets/logo-truequeo.png'
 import lupa from './assets/lupa.png'
 
@@ -7,10 +7,10 @@ import lupa from './assets/lupa.png'
 
 const Login = () => {
     return (
-       
+
         <formularioLogin>
             <div className="formularioimg">
-                <img src={logo} alt=""/>
+                <img src={logo} alt="" />
             </div>
 
             <div className="usuario">
@@ -18,7 +18,7 @@ const Login = () => {
             </div>
 
             <div className="usuarioinput">
-                <input type="text"/>
+                <input type="text" />
             </div>
 
             <div className="contraseña">
@@ -26,7 +26,7 @@ const Login = () => {
             </div>
 
             <div className="contraseñainput">
-                <input type="text"/>
+                <input type="text" />
             </div>
 
             <div className="olvidastecontraseña">
@@ -35,12 +35,12 @@ const Login = () => {
 
             <div className="botoniniciosesion">
                 <NavLink to="/miperfil">INICIAR SESION</NavLink>
-            </div>  
-            
-            <br>  
+            </div>
+
+            <br>
                 <a href="./registrar.html">Crear tu cuenta</a>
             </br>
-    
+
         </formularioLogin>
 
     );

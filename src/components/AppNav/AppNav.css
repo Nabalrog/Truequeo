@@ -19,6 +19,7 @@ body{
     /* INICIO BARRA DE NAVEGACION  */
     
     .navegacion{
+        border:none;
      
         display: flex;
         height: 90px;
@@ -30,6 +31,7 @@ body{
     
     
     .logo{
+        border:none;
         
         padding-top: 6px;
         padding-bottom: 6px;
@@ -40,10 +42,12 @@ body{
     }
     
     .logo img{
+        border:none;
         width: 80px;
     }
     
     .secciones{
+        border:none;
        
         width: 600px;
         display: flex;
@@ -53,22 +57,25 @@ body{
     }
     
     .secciones a{
+        border:none;
         text-decoration: none;
         color: black;
     }
     
     .lupa{
-   
+        border:none;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
     .lupa img{
+        border:none;
         width: 40px;
     }
     
     .buscador{
+        border:none;
       
         display: flex;
         justify-content: center;
@@ -77,6 +84,7 @@ body{
     }
     
     .buscador input{
+        
        
         border-radius: 10px;
         width: 280px;
@@ -85,6 +93,7 @@ body{
     }
     
     .iniciosesion{
+        border:none;
         
         display: flex;
         justify-content: center;
@@ -97,6 +106,7 @@ body{
     }
     
     .iniciosesion a{
+        border:none;
         text-decoration: none;
         color: white;
         font-family: myriad-pro, sans-serif;

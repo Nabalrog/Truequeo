@@ -2,12 +2,13 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./MainContainer.css"
 import CardCurso from '../../components/CardCurso/CardCurso'
-import truequeoimg from '../../assets/TRUEQUEOIMG.png'
+
 import img2 from '../../assets/2.jpg'
 import img3 from '../../assets/testimonio3.jpg'
 import img4 from '../../assets/testimonio1.jpg'
 import img5 from '../../assets/testimonio2.jpg'
 import img6 from '../../assets/diseñoweb1.png'
+import logo from "../../assets/TRUEQUEOIMG.png"
 
 const MainContainer = () => {
     return (
@@ -15,18 +16,6 @@ const MainContainer = () => {
         <div>
             <div>
                 <header >
-
-                    <div class="recuadroinformacion" styles={{ backgroundImage: (img2) }}>
-                        <div class="recuadrogris">
-                            <div >
-                                <img src={truequeoimg} alt="" />
-                                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam commodi tempore deserunt eum perferendis assumenda cupiditate. Cum consequatur distinctio rerum placeat! Earum ratione molestias quidem modi laboriosam? Obcaecati, possimus expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In tempore iure enim voluptas? Libero temporibus, provident, illo voluptate perspiciatis, est tempore quia nam esse porro ipsa tenetur omnis repudiandae labore.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-
                     <div class="masinformacion" >
                         <a href="./assets/CATEGORIA-4.jpg">¿COMO FUNCIONA?</a>
                     </div>
@@ -57,16 +46,16 @@ const MainContainer = () => {
 
                         <div class="diseñoweb2">
 
-                            <CardCurso 
-                            imagen={img6}
-                            texto="Este es un curso de Javascript"/>
+                            <CardCurso
+                                imagen={img6}
+                                texto="Este es un curso de Javascript" />
                         </div>
 
                         <div class="diseñoweb3">
 
                             <CardCurso
-                            imagen={img6}
-                            texto="Este es un curso de Javascript" />
+                                imagen={img6}
+                                texto="Este es un curso de Javascript" />
                         </div>
 
                     </div>
