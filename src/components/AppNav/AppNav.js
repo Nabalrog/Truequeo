@@ -19,7 +19,7 @@ const AppNav = () => {
 
 
             <div id="navegacion" className="secciones">
-                <NavLink to="/MainContainer">HOME</NavLink>
+                <NavLink to="/">HOME</NavLink>
                 <NavLink to="/MiPerfil">MI PERFIL</NavLink>
                 <NavLink to="/Categorias">CATEGORIAS</NavLink>
             </div>
