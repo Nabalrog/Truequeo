@@ -11,7 +11,7 @@ import NotFound from "./containers/NotFound/NotFound"
 import PerfilVisitado from "./containers/PerfilVisitado/PerfilVisitado";
 import Curso from "./containers/Curso/Curso";
 import CrearUsuario from "./containers/CrearUsuario/CrearUsuario";
-import Usuario from './components/Usuario/Usuario'
+
 import Tarjeta1 from './components/Tarjeta1/Tarjeta1'
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route exact path="/PerfilVisitado" component={PerfilVisitado}/>
         <Route exact path="/Curso" component={Curso}/>
         <Route exact path="/CrearUsuario" component={CrearUsuario}/>
-        <Route exact path="/Usuario" component={Usuario}/>
+  
         <Route exact path="/Tarjeta1" component={Tarjeta1}/>
 
         {/* Siempre es el último */}

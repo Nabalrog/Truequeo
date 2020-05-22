@@ -43,7 +43,7 @@ const PerfilVisitado = () => {
 
     <div className="card">
         <div className="card-body">
-          <img src={testimonio2} className="card-img-top fotoperfil" />
+          <img src={testimonio2} className="card-img-top fotoperfil" alt="imagen7" />
           <h5 className="card-title nombreperfiltxt">ARGEMIRO PANDA</h5>
         
         </div>
@@ -91,7 +91,7 @@ const PerfilVisitado = () => {
 <div className="row">
 <div className="col-md" >
     <div className="card" >
-        <img className="card-img-top" src={diseñoweb1} alt=""/>
+        <img className="card-img-top" src={diseñoweb1} alt="img"/>
         <div className="card-body">
           <h5 className="card-title">CURSO DE FRONT-END</h5>
           <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
@@ -102,7 +102,7 @@ const PerfilVisitado = () => {
 
 <div className="col-md" >
     <div className="card" >
-        <img className="card-img-top" src={diseñoweb2} alt=""/>
+        <img className="card-img-top" src={diseñoweb2} alt="img2"/>
         <div className="card-body">
           <h5 className="card-title">CURSO DE FRONT-END</h5>
           <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
@@ -113,7 +113,7 @@ const PerfilVisitado = () => {
 
     <div className="col-md" >
     <div className="card">
-        <img className="card-img-top" src={diseñoweb3} alt=""/>
+        <img className="card-img-top" src={diseñoweb3} alt="img3"/>
         <div className="card-body">
           <h5 className="card-title">CURSO DE FRONT-END</h5>
           <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
@@ -135,7 +135,7 @@ const PerfilVisitado = () => {
 <div className="row">
 <div className="col-md" >
     <div className="card">
-        <img className="card-img-top" src={diseñoweb1} alt=""/>
+        <img className="card-img-top" src={diseñoweb1} alt="img4"/>
         <div className="card-body">
           <h5 className="card-title">CURSO DE FRONT-END</h5>
           <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
@@ -146,7 +146,7 @@ const PerfilVisitado = () => {
 
 <div className="col-md" >
     <div className="card">
-        <img className="card-img-top" src={diseñoweb2} alt=""/>
+        <img className="card-img-top" src={diseñoweb2} alt="img5"/>
         <div className="card-body">
           <h5 className="card-title">CURSO DE FRONT-END</h5>
           <p className="card-text">Curso completo de desarrollo web Front-end y...</p>
@@ -157,7 +157,7 @@ const PerfilVisitado = () => {
 
     <div className="col-md" >
     <div className="card" >
-        <img className="card-img-top" src={diseñoweb3} alt=""/>
+        <img className="card-img-top" src={diseñoweb3} alt="img6"/>
         <div className="card-body">
           <h5 className="card-title">CURSO DE FRONT-END</h5>
           <p className="card-text">Curso completo de desarrollo web Front-end y...</p>

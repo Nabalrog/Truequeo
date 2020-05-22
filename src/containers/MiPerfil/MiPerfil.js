@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Tarjeta1 from "../../components/Tarjeta1/Tarjeta1"
 import Tarjeta2 from "../../components/Tarjeta2/Tarjeta2"
 import Tarjeta3 from "../../components/Tarjeta3/Tarjeta3"
@@ -6,8 +6,16 @@ import Tarjeta4 from "../../components/Tarjeta4/Tarjeta4"
 import "./MiPerfil.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from 'react-router-dom';
+import axios from 'axios'
 
 const MiPerfil = () => {
+
+
+    const [user, setUser] = useState('')
+
+
+    const id = '-M7oZWTQ4ZgT5D4v1hrA'
+
 
     const [card1, setcard1] = useState(false)
     const [card2, setcard2] = useState(false)
@@ -44,7 +52,18 @@ const MiPerfil = () => {
 
     }
 
-    
+    const getUsuario = () => {
+
+        axios.get(`https://truequeoweb.firebaseio.com/usuarios.json`)
+            .then(({ data }) => setUser(data[id]));
+
+
+
+    }
+
+    useEffect(() => {
+        getUsuario();
+    }, [])
 
 
     return (
@@ -80,7 +99,15 @@ const MiPerfil = () => {
                             <div className="card-body">
                                 <h5 id="col2Sub1" className="card-title"></h5>
                                 <p id="col2Text1" className="card-text"></p>
-                                {card1 && <div><Tarjeta1 /></div>}
+                                {card1 && <div><Tarjeta1
+                                    key={id}
+                                    Nombre={user.nombre}
+                                    Telefono={user.telefono}
+                                    Password={user.password}
+                                    Correo={user.correo}
+                                    getUsuario={getUsuario}
+
+                                /></div>}
 
                                 <h5 id="col2Sub2" className="card-title"></h5>
                                 <p id="col2Text2" className="card-text"></p>

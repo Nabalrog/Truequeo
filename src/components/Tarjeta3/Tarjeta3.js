@@ -2,7 +2,7 @@ import React from 'react'
 import './Tarjeta3.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import diseñoweb1 from '../../assets/diseñoweb1.png'
+
 
 const Tarjeta3 = () => {
     return (

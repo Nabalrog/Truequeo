@@ -10,9 +10,9 @@ const AppNav = () => {
     return (
 
 
-        <nav class="navegacion">
+        <nav className="navegacion">
 
-            <div class="logo">
+            <div className="logo">
                 <img src={logo} alt="" />
                 
             </div>

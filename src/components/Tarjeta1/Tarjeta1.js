@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Tarjeta1.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Usuario from '../Usuario/Usuario';
 
 
 
-const Tarjeta1 = ({ Nombre, Password, Correo, Telefono} ) => {
+
+const Tarjeta1 = ({ Nombre, Password, Correo, Telefono }) => {
 
 
-   
+
 
     return (
         <div>

@@ -7,6 +7,7 @@ import img2 from '../../assets/2.jpg'
 import img3 from '../../assets/testimonio3.jpg'
 import img4 from '../../assets/testimonio1.jpg'
 import img5 from '../../assets/testimonio2.jpg'
+import img6 from '../../assets/diseñoweb1.png'
 
 const MainContainer = () => {
     return (
@@ -49,18 +50,23 @@ const MainContainer = () => {
                         <div class="diseñoweb1" >
 
 
-                            <CardCurso />
+                            <CardCurso
+                                imagen={img6}
+                                texto="Este es un curso de Javascript" />
                         </div>
-
 
                         <div class="diseñoweb2">
 
-                            <CardCurso />
+                            <CardCurso 
+                            imagen={img6}
+                            texto="Este es un curso de Javascript"/>
                         </div>
 
                         <div class="diseñoweb3">
 
-                            <CardCurso />
+                            <CardCurso
+                            imagen={img6}
+                            texto="Este es un curso de Javascript" />
                         </div>
 
                     </div>

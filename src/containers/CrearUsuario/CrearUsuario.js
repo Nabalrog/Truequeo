@@ -39,7 +39,9 @@ const CrearUsuario = () => {
             correo: correo,
         }
 
-        axios.post('https://truequeoweb.firebaseio.com/usuarios.json', body);
+        axios.post('https://truequeoweb.firebaseio.com/usuarios.json', body)
+        .then(()=>{alert('Usuario creado')})
+        .catch(()=>{alert('No se pudo crear nada')})
     };
 
 
@@ -54,18 +56,18 @@ const CrearUsuario = () => {
                     <p className="text-muted">Crea tu cuenta TruqueO para empezar a compartir conocimiento.</p>
 
                     <div className="form-group">
-                        <label htmlfor="">Nombre:</label>
+                        <label htmlFor="">Nombre:</label>
                         <input className="form-control" onChange={handlenombre} value={nombre} placeholder="Ingrese Nombre" id="nomb" type="text" />
                     </div>
-                    <div className="form-group" htmlfor="">
+                    <div className="form-group" htmlFor="">
                         <label>Password:</label>
                         <input className="form-control" onChange={handlepassword} value={password} placeholder="Ingrese Password" type="password" id="pwd" type="text" />
                     </div>
-                    <div className="form-group" htmlfor="">
+                    <div className="form-group" htmlFor="">
                         <label>Teléfono:</label>
                         <input className="form-control" onChange={handletelefono} value={telefono} placeholder="Ingrese Teléfono" id="telefono" type="number" />
                     </div>
-                    <div className="form-group" htmlfor="">
+                    <div className="form-group" htmlFor="">
                         <label>Correo:</label>
                         <input className="form-control" onChange={handlecorreo} value={correo} placeholder="Ingrese Correo" id="correo" type="text" />
                     </div>
