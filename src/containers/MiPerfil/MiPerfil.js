@@ -14,7 +14,7 @@ const MiPerfil = () => {
     const [user, setUser] = useState('')
 
 
-    const id = '-M7oZWTQ4ZgT5D4v1hrA'
+    const id = '-M7tqDciuGDYCDAZnPKP'
 
 
     const [card1, setcard1] = useState(false)
