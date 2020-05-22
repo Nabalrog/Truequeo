@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <AppNav />
       <Switch>
-        <Route exact path="/MainContainer" component={MainContainer} />
+        <Route exact path="/" component={MainContainer} />
         <Route exact path="/MiPerfil" component={MiPerfil} />
         <Route exact path="/Categorias" component={Categorias}/>
         {/* <Route exact path="/Login" component={Login}/> */}
