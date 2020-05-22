@@ -1,90 +1,49 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
+import logo from './assets/logo-truequeo.png'
+import lupa from './assets/lupa.png'
+
 
 
 const Login = () => {
     return (
-        <navegacion> 
-
-            <div class="navegacion">
-                <div class="logo">
-                    <div>
-                    <img src="./assets/logo-truequeo.png" alt="">
-                    </div>
-                </div>
-
-            </div>
-            
-
-
-            <div class="secciones">
-            <a href="index.html">HOME</a>
-                <a href="">MI PERFIL</a>
-                <a href="">CATEGORIAS</a>
-
-            </div>
-                
-            <div class="lupa">
-              <img src="./assets/lupa.png" alt="">
-            </div>
-
-
-            <div class="buscador">
-               <input type="text" placeholder= "¿Que quieres truequear hoy?" >
-             </div>
-
-
-          <div class="iniciosesion">
-              <a href="./miperfil.html">MI PERFIL</a>
-            </div>
-  
-
-
-          
-                
-        </navegacion>
-
-
-
+       
         <formularioLogin>
-            <div class="formularioimg">
-                <img src="./assets/TRUEQUEOIMG.png" alt="">
+            <div className="formularioimg">
+                <img src={logo} alt=""/>
             </div>
 
-          <div class="usuario">
-             <p>Usuario / Correo Electronico</p>
-         </div>
-
-            <div class="usuarioinput">
-             <input type="text">
+            <div className="usuario">
+                <p>Usuario / Correo Electronico</p>
             </div>
 
-            <div class="contraseña">
-              <p>Contraseña:</p>
+            <div className="usuarioinput">
+                <input type="text"/>
             </div>
 
-            <div class="contraseñainput">
-              <input type="text">
+            <div className="contraseña">
+                <p>Contraseña:</p>
             </div>
 
-            <div class="olvidastecontraseña">
-             <p>¿Olvidaste tu usuario o contraseña?</p>
-    
+            <div className="contraseñainput">
+                <input type="text"/>
             </div>
 
-            <div class="botoniniciosesion">
-             <a href="./miperfil.html">INICIAR SESION</a>
+            <div className="olvidastecontraseña">
+                <p>¿Olvidaste tu usuario o contraseña?</p>
+            </div>
+
+            <div className="botoniniciosesion">
+                <NavLink to="/miperfil">INICIAR SESION</NavLink>
             </div>  
             
             <br>  
-             <a href="./registrar.html">Crear tu cuenta</a>
-  
+                <a href="./registrar.html">Crear tu cuenta</a>
+            </br>
+    
         </formularioLogin>
 
-        <footer class="footer">
-         <p>DERECHOS RESERVADOS DE TRUEQUEO</p>
-        </footer>
-
-    )
+    );
 }
 
 export default Login
