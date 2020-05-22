@@ -111,7 +111,7 @@ header{
 /* INICIO SECTION CATEGORIA */
 
 .categoriatxt{
-    border: solid px;
+    
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ header{
 
 
 .secciontxybarra{
-    border: solid px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,6 @@ header{
 }
 
 .barracategoria{
-    border: solid px #d8d6d6;
     background-color: #d8d6d6;
     width: 95%;
 }
@@ -193,15 +192,15 @@ header{
 }
 
 .diseñoweb1{
-    border: solid px;
+  
     height: 300px;
 }
 .diseñoweb2{
-    border: solid px;
+    
     height: 300px;
 }
 .diseñoweb3{
-    border: solid px;
+    
     height: 300px;
 }
 
@@ -297,13 +296,13 @@ header{
 /* INICIO SECTION TESTIMONIOS */
 
 .testimoniostxt{
-    border: solid px;
+  
     text-align: center;
     margin: 80px 0px;
 }
 
 .testimoniostxt p{
-    border: solid px;
+  
     font-size: 40px;
     font-family: myriad-pro, sans-serif;
 }
@@ -338,7 +337,7 @@ header{
 }
 
 .testimonios{
-    border: solid px;
+ 
     display: flex;
     justify-content: space-evenly;
 }
