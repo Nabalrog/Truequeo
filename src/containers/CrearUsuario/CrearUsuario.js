@@ -33,10 +33,10 @@ const CrearUsuario = () => {
 
 
         const body = {
-            nombre: nombre,
+            first_name: nombre,
             password: password,
-            telefono: telefono,
-            correo: correo,
+            apellido: telefono,
+            email: correo,
         }
 
         axios.post('https://rocky-savannah-19817.herokuapp.com/api/v1/users', body)
