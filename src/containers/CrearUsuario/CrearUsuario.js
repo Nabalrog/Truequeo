@@ -39,7 +39,7 @@ const CrearUsuario = () => {
             email: correo,
         }
 
-        axios.post('https://rocky-savannah-19817.herokuapp.com/api/v1/users', body)
+        axios.post('https://rocky-savannah-19817.herokuapp.com/api/v1/register', body)
         .then(()=>{alert('Usuario creado')})
         .catch(()=>{alert('No se pudo crear nada')})
     };

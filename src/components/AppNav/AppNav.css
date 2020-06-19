@@ -20,10 +20,9 @@ body{
     
     .navegacion{
         border:none;
-     
         display: flex;
         height: 90px;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: white;
         box-shadow: 1px 1px 10px #666;
@@ -79,15 +78,15 @@ body{
       
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin-left: -60px;
+        align-items: right;
+        margin-left: -50px;
     }
     
     .buscador input{
         
        
         border-radius: 10px;
-        width: 280px;
+        width: 200px;
         height: 40px;
         text-align: center;
     }

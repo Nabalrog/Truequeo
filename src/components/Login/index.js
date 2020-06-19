@@ -23,6 +23,7 @@ const Login = () => {
         try {
             const axiosRes = await axios.post('https://rocky-savannah-19817.herokuapp.com/api/v1/login', jsonSend);
             const { token } = axiosRes.data;
+            console.log(token)
             setTokenInLocalStorage(token);
             alert('Successful login');
         } catch (error) {
@@ -32,7 +33,7 @@ const Login = () => {
 
     return (
         <React.Fragment>
-            <h1 className="mb-4">Login to Maui App</h1>
+            <h1 className="mb-4">Login TRUEQUEO</h1>
             <Form onSubmit={handleSubmit}>
                 <FormGroup>
                     <Label>Email</Label>

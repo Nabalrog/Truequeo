@@ -13,9 +13,12 @@ import Curso from "./containers/Curso/Curso";
 import CrearUsuario from "./containers/CrearUsuario/CrearUsuario";
 
 import Tarjeta1 from './components/Tarjeta1/Tarjeta1'
+import AuthContextProvider from './contexts/AuthContext';
 
 function App() {
   return (
+    <React.Fragment>
+      <AuthContextProvider>
     <BrowserRouter>
       <AppNav />
       <Switch>
@@ -33,6 +36,8 @@ function App() {
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
+    </AuthContextProvider>
+    </React.Fragment>
   );
 }
 
