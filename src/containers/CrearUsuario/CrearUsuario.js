@@ -35,7 +35,7 @@ const CrearUsuario = () => {
         const body = {
             first_name: nombre,
             password: password,
-            apellido: telefono,
+            last_name: telefono,
             email: correo,
         }
 
