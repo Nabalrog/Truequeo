@@ -39,7 +39,7 @@ const CrearUsuario = () => {
             correo: correo,
         }
 
-        axios.post('https://truequeoweb.firebaseio.com/usuarios.json', body)
+        axios.post('https://rocky-savannah-19817.herokuapp.com/api/v1/users', body)
         .then(()=>{alert('Usuario creado')})
         .catch(()=>{alert('No se pudo crear nada')})
     };

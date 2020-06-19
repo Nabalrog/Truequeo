@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from './assets/logo-truequeo.png'
-import lupa from './assets/lupa.png'
+import logo from '../../assets/logo-truequeo.png'
+
+import "./Login.css"
 
 
 
 const Login = () => {
     return (
-
-        <formularioLogin>
+        <div>
             <div className="formularioimg">
                 <img src={logo} alt="" />
             </div>
@@ -37,11 +37,11 @@ const Login = () => {
                 <NavLink to="/miperfil">INICIAR SESION</NavLink>
             </div>
 
-            <br>
+            
                 <a href="./registrar.html">Crear tu cuenta</a>
-            </br>
+            
 
-        </formularioLogin>
+            </div>
 
     );
 }
