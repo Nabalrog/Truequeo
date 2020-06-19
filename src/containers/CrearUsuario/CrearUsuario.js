@@ -65,7 +65,7 @@ const CrearUsuario = () => {
                     </div>
                     <div className="form-group" htmlFor="">
                         <label>Apellido:</label>
-                        <input className="form-control" onChange={handletelefono} value={telefono} placeholder="Ingrese apellido" id="telefono" type="number" />
+                        <input className="form-control" onChange={handletelefono} value={telefono} placeholder="Ingrese apellido" id="telefono" type="text" />
                     </div>
                     <div className="form-group" htmlFor="">
                         <label>Correo:</label>
